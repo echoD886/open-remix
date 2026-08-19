@@ -1,0 +1,114 @@
+// Cloudflare Workers production template: PostgreSQL through Hyperdrive.
+// Copy this to wrangler.jsonc (gitignored) and replace only the Hyperdrive id
+// with the reviewed production binding. `pnpm cf:build` temporarily selects
+// schema.postgres.ts, injects these public vars, builds, verifies the generated
+// PostgreSQL schema/driver bundle, and restores schema.ts byte-for-byte.
+// `pnpm cf:deploy` is the only deploy entry point; it runs the same gate first.
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "openremix",
+  "compatibility_date": "2026-06-19",
+  "compatibility_flags": ["nodejs_compat"],
+  // This root configuration is what cf:deploy passes to Wrangler. The
+  // generated Worker keeps its own relative entry, so these paths are rooted
+  // at the repository and must resolve to the same files.
+  "main": ".output/server/index.mjs",
+  "no_bundle": true,
+  "workers_dev": false,
+  "assets": {
+    "binding": "ASSETS",
+    "directory": ".output/public"
+  },
+  "rules": [
+    { "type": "CompiledWasm", "globs": ["**/*.wasm"], "fallthrough": true },
+    { "type": "ESModule", "globs": ["**/*.mjs", "**/*.js"] }
+  ],
+  "observability": {
+    "enabled": true
+  },
+  "vars": {
+    "DATABASE_PROVIDER": "postgresql",
+    "DB_SCHEMA": "seedance21pro",
+    // Image reconciliation is served by the existing durable-drain cron. The
+    // safe-egress service below is reviewed and required; all remaining
+    // product-video R2/queue/container infrastructure stays fail-closed.
+    "IMAGE_GENERATION_RECONCILE_CRON_ENABLED": "true",
+    "PRODUCT_VIDEO_RENDER_PIPELINE_ENABLED": "false",
+    "PRODUCT_VIDEO_RENDER_QUEUE_CONSUMER_ENABLED": "false",
+    "PRODUCT_VIDEO_RENDER_CRON_SWEEPER_ENABLED": "false",
+    "PRODUCT_VIDEO_RENDER_CONTAINER_ENABLED": "false",
+    "PRODUCT_VIDEO_RENDER_EXTERNAL_INFRA_STATUS": "unconfigured",
+    "AUTH_URL": "https://openremix.app",
+    "VITE_APP_URL": "https://openremix.app",
+    "VITE_APP_NAME": "OpenRemix",
+    "VITE_APP_DESCRIPTION": "Turn product images into campaign-ready product photos, ad variations, and product videos with OpenRemix.",
+    "VITE_APP_LOGO": "/logo.png",
+    "VITE_DEFAULT_LOCALE": "en",
+    "VITE_GOOGLE_ANALYTICS_ID": "G-94JN9MVWW1",
+    "VITE_MICROSOFT_CLARITY_ID": "y19hapuxd2",
+    "VITE_BUSINESS_NAME": "OpenRemix",
+    "VITE_BUSINESS_EMAIL": "support@openremix.app",
+    "VITE_BUSINESS_PHONE": "",
+    "VITE_BUSINESS_STREET_ADDRESS": "",
+    "VITE_BUSINESS_ADDRESS_LOCALITY": "",
+    "VITE_BUSINESS_ADDRESS_REGION": "",
+    "VITE_BUSINESS_ADDRESS_REGION_NAME": "",
+    "VITE_BUSINESS_POSTAL_CODE": "",
+    "VITE_BUSINESS_ADDRESS_COUNTRY": "",
+    "VITE_BUSINESS_AREA_SERVED": "",
+    "VITE_BUSINESS_PRICE_RANGE": "$19.90-$299.00"
+  },
+  "routes": [
+    {
+      "pattern": "openremix.app/*",
+      "zone_name": "openremix.app"
+    },
+    {
+      "pattern": "www.openremix.app/*",
+      "zone_name": "openremix.app"
+    },
+    {
+      "pattern": "seedance21pro.com/*",
+      "zone_name": "seedance21pro.com"
+    },
+    {
+      "pattern": "www.seedance21pro.com/*",
+      "zone_name": "seedance21pro.com"
+    }
+  ],
+  "services": [
+    {
+      "binding": "PRODUCT_VIDEO_SAFE_EGRESS",
+      "service": "product-video-safe-egress"
+    }
+  ],
+  "hyperdrive": [
+    {
+      "binding": "HYPERDRIVE",
+      "id": "REPLACE_WITH_OUTPUT_OF_WRANGLER_HYPERDRIVE_CREATE"
+    }
+  ]
+  // Do not add DATABASE_URL to vars. Hyperdrive supplies it at runtime, and
+  // vars are public. Direct PostgreSQL migration access is a separate,
+  // human-reviewed operation and is never part of cf:build/cf:deploy.
+  // Other optional bindings — uncomment when needed:
+  // "kv_namespaces":  [{ "binding": "CACHE",  "id": "..." }],
+  // Production image delivery requires a native bucket binding in the local,
+  // ignored deploy config. It replaces failure-prone long-lived S3 tokens:
+  // "r2_buckets": [{ "binding": "IMAGE_GENERATION_MEDIA", "bucket_name": "..." }],
+  // Required by the product-video streaming sink when the pipeline vars above
+  // are enabled. The renderer/container service must bind the same bucket.
+  // append { "binding": "PRODUCT_VIDEO_MEDIA", "bucket_name": "..." } to
+  // the active r2_buckets array after remote readiness is reviewed.
+  // Append PRODUCT_VIDEO_RENDER_CONTAINER to the active "services" array
+  // above only after the renderer service has been reviewed and deployed.
+  // Cloudflare queue consumer settings apply to the whole mixed queue, not a
+  // job kind. Keep the platform batch at 10 for ordinary submit/poll/transfer
+  // throughput; the registered consumer reads each durable job kind and runs
+  // render/compose-export as isolated serial segments (max one long job at a
+  // time per delivered batch).
+  // "queues": {
+  //   "producers": [{ "binding": "PRODUCT_VIDEO_RENDER_QUEUE", "queue": "product-video-render" }],
+  //   "consumers": [{ "queue": "product-video-render", "max_batch_size": 10 }]
+  // }
+}

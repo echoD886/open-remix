@@ -1,0 +1,45 @@
+{
+  "desktop": {
+    "width": 1440,
+    "height": 1063,
+    "scrollWidth": 1440,
+    "overflowX": false,
+    "has": {
+      "create": true,
+      "vip": true,
+      "login": true,
+      "tabs": true
+    },
+    "header": [
+      "Seedance\n2.1 Pro",
+      "Home",
+      "AI Video Generator",
+      "AI Image Generator",
+      "Models",
+      "Create",
+      "VIP",
+      "Switch language",
+      "Log In",
+      "Open menu",
+      "Home",
+      "AI Video Generator",
+      "AI Image Generator",
+      "Models",
+      "Create Image",
+      "Make Video",
+      "Agent Mode",
+      "VIP",
+      "Log In"
+    ]
+  },
+  "events": [
+    {
+      "type": "console:info",
+      "text": "%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"
+    },
+    {
+      "type": "console:info",
+      "text": "%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"
+    }
+  ]
+}

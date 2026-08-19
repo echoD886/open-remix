@@ -1,0 +1,42 @@
+{
+  "source": "Xiaolin AI direct image generation",
+  "principle": "Each image prompt is derived from a specific Seedance 2.5 article idea. Text, illustration, paper texture, red marks, and metaphors are generated in one pass; no SVG text overlay is used.",
+  "style": "French minimalist editorial poster, warm ivory paper, high-contrast serif English titles, sparse ink drawing, one muted red accent, large negative space.",
+  "assets": [
+    {
+      "id": "seedance-25-native-30s-storyboard",
+      "file": "/imgs/generated/blog-art-direct/seedance-25-native-30s-storyboard.jpg",
+      "role": "30-second native generation card",
+      "article_idea": "A complete 30-second scene beat should be generated as one native clip, not stitched fragments.",
+      "visible_text": "30s Native Video / A complete beat, not stitched fragments."
+    },
+    {
+      "id": "seedance-25-reference-brief-board",
+      "file": "/imgs/generated/blog-art-direct/seedance-25-reference-brief-board.jpg",
+      "role": "Primary blog cover and 50 multimodal references card",
+      "article_idea": "Fifty references should behave like a role-based production brief: product, cast, motion, mood, and audio.",
+      "visible_text": "50 Reference Inputs / Product, cast, motion, mood, audio"
+    },
+    {
+      "id": "seedance-25-local-edit-patch-v2",
+      "file": "/imgs/generated/blog-art-direct/seedance-25-local-edit-patch-v2.jpg",
+      "role": "Local edit card",
+      "article_idea": "Localized correction should patch one flaw while preserving the rest of the approved scene.",
+      "visible_text": "Local Edit / Change one detail. Keep the shot. / preserve scene / patch flaw"
+    },
+    {
+      "id": "seedance-25-image-to-video-reuse-v2",
+      "file": "/imgs/generated/blog-art-direct/seedance-25-image-to-video-reuse-v2.jpg",
+      "role": "Image-to-video workflow card",
+      "article_idea": "Approved image/keyframe assets can become video references instead of starting over.",
+      "visible_text": "Image to Video / Keep the idea. Add motion. / Approved Image / reuse as reference / Seedance Video"
+    },
+    {
+      "id": "seedance-25-white-model-previz",
+      "file": "/imgs/generated/blog-art-direct/seedance-25-white-model-previz.jpg",
+      "role": "3D white-model and 4K previsualization card",
+      "article_idea": "White-model previsualization plans space and camera paths before final high-resolution rendering.",
+      "visible_text": "3D White Model / Plan space before rendering"
+    }
+  ]
+}

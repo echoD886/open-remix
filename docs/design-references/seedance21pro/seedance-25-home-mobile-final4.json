@@ -1,0 +1,38 @@
+{
+  "generatedAt": "2026-06-24T05:20:38.612Z",
+  "screenshot": "home-mobile-possibilities-seedance25-final4.png",
+  "metrics": {
+    "title": "Seedance 2.5 AI Video Generator | Create Video & Images from Prompts and References",
+    "bodyIncludes21": false,
+    "bodyIncludes25": true,
+    "scrollWidth": 390,
+    "viewportWidth": 390,
+    "overflowX": 0,
+    "videoCount": 2,
+    "visibleVideoCount": 1,
+    "failedImages": [],
+    "carouselStates": [
+      {
+        "heading": "Immersive Audio-visual Experience",
+        "activeDot": "Show pizza-rain-window",
+        "loadedImages": 5,
+        "totalImages": 5,
+        "videoCount": 0
+      },
+      {
+        "heading": "Create with Director-level Control",
+        "activeDot": "Show sports-reference-grid",
+        "loadedImages": 5,
+        "totalImages": 5,
+        "videoCount": 0
+      },
+      {
+        "heading": "Empower Creativity",
+        "activeDot": "Show animated-city",
+        "loadedImages": 5,
+        "totalImages": 5,
+        "videoCount": 0
+      }
+    ]
+  }
+}

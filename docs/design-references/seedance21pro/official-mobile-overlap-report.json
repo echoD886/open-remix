@@ -1,0 +1,12 @@
+{
+  "shot": "/Users/apple/Desktop/p/seedance21pro/docs/design-references/seedance21pro/official-lower-section-mobile-no-overlap.png",
+  "scrollWidth": 390,
+  "innerWidth": 390,
+  "headerBottom": 98,
+  "titleTop": 136,
+  "overlap": false,
+  "pass": {
+    "noOverflow": true,
+    "noOverlap": true
+  }
+}

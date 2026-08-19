@@ -1,0 +1,165 @@
+{
+  "desktop": {
+    "title": "Seedance 2.1 Pro | AI Video Generator",
+    "url": "https://seedance21pro.com/",
+    "width": 390,
+    "height": 844,
+    "scrollWidth": 390,
+    "overflowX": false,
+    "bodyHas": {
+      "create": true,
+      "vip": true,
+      "login": true,
+      "makeVideos": true,
+      "createImage": true,
+      "agent": true,
+      "generate": true,
+      "seedance": true
+    },
+    "selectors": {
+      "videoTab": true,
+      "imageTab": true,
+      "agentTab": true,
+      "language": true
+    },
+    "visibleHeader": [
+      "Seedance\n2.1 Pro",
+      "Home",
+      "AI Video Generator",
+      "AI Image Generator",
+      "Models",
+      "Create",
+      "VIP",
+      "Switch language",
+      "Log In",
+      "Open menu",
+      "Home",
+      "AI Video Generator",
+      "AI Image Generator",
+      "Models",
+      "Create Image",
+      "Make Video",
+      "Agent Mode",
+      "VIP",
+      "Log In"
+    ]
+  },
+  "modelInfo": {
+    "videoLabels": [
+      "Seedance 2.1 Pro",
+      "Seedance Image-to-Video",
+      "Seedance Reference Video",
+      "Veo 3.1",
+      "Sora 2 Preview",
+      "Kling O3 Text",
+      "Kling O3 Image",
+      "Wan 2.6 Text",
+      "Wan 2.6 Image",
+      "Wan 2.6 Reference Flash",
+      "Hailuo 02",
+      "Hailuo 2.3 Fast",
+      "Grok Imagine Text",
+      "Grok Imagine Image",
+      "HappyHorse Text",
+      "HappyHorse Image"
+    ],
+    "imageLabels": [
+      "GPT Image 2",
+      "Nano Banana Pro",
+      "Nano Banana 2",
+      "Seedream 5.0 Lite",
+      "Wan 2.5 Text",
+      "Wan 2.5 Image",
+      "Z Image Turbo"
+    ],
+    "agentLabels": [
+      "Creative Agent",
+      "Video Director Agent",
+      "Image Art Director"
+    ],
+    "videoCount": 16,
+    "imageCount": 7,
+    "agentCount": 3,
+    "checks": {
+      "seedance21": true,
+      "veo": true,
+      "sora": true,
+      "kling": true,
+      "wanVideo": true,
+      "gptImage2": true,
+      "nanoPro": true,
+      "nano2": true,
+      "wanImage": true,
+      "creativeAgent": true,
+      "videoDirectorAgent": true,
+      "imageArtDirector": true
+    }
+  },
+  "languageInfo": {
+    "foundTrigger": true,
+    "labels": {
+      "English": true,
+      "Deutsch": true,
+      "Français": true,
+      "Español": true,
+      "Português": true,
+      "Italiano": true,
+      "日本語": true,
+      "한국어": true,
+      "中文": true,
+      "العربية": true,
+      "Bahasa": true,
+      "ไทย": true,
+      "Tiếng Việt": true,
+      "Türkçe": true
+    },
+    "menuText": [
+      "English",
+      "Deutsch",
+      "Français",
+      "Español",
+      "Português",
+      "Italiano",
+      "日本語",
+      "한국어",
+      "中文",
+      "العربية",
+      "Bahasa",
+      "ไทย",
+      "Tiếng Việt",
+      "Türkçe"
+    ]
+  },
+  "mobile": {
+    "width": 390,
+    "height": 844,
+    "scrollWidth": 390,
+    "overflowX": false,
+    "bodyHas": {
+      "vip": true,
+      "login": true,
+      "makeVideos": true,
+      "createImage": true,
+      "agent": true,
+      "generate": true
+    }
+  },
+  "events": [
+    {
+      "type": "console:info",
+      "text": "%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"
+    },
+    {
+      "type": "console:info",
+      "text": "%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"
+    },
+    {
+      "type": "console:info",
+      "text": "%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"
+    }
+  ],
+  "screenshots": [
+    "/Users/apple/Desktop/p/seedance21pro/docs/design-references/seedance21pro/home-final-desktop.png",
+    "/Users/apple/Desktop/p/seedance21pro/docs/design-references/seedance21pro/home-final-mobile.png"
+  ]
+}

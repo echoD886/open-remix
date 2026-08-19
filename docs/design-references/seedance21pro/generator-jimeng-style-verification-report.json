@@ -1,0 +1,47 @@
+{
+  "screenshots": {
+    "uploadShot": "/Users/apple/Desktop/p/seedance21pro/docs/design-references/seedance21pro/generator-jimeng-style-upload-mention.png",
+    "modelShot": "/Users/apple/Desktop/p/seedance21pro/docs/design-references/seedance21pro/generator-jimeng-style-model-menu.png",
+    "mobileShot": "/Users/apple/Desktop/p/seedance21pro/docs/design-references/seedance21pro/generator-jimeng-style-mobile.png"
+  },
+  "uploadState": {
+    "scrollWidth": 1440,
+    "innerWidth": 1440,
+    "chips": [
+      "@Image 1",
+      "@Image 2",
+      "@Image 3",
+      "@Image 1012-poster-b091411b8a.jpg · 85.4 KB",
+      "@Image 2014-poster-1f6d016e55.jpg · 76.7 KB",
+      "@Image 3032-poster-568cc0602a.jpg · 75.7 KB",
+      "Use @Image 1 as the main subject and keep the same identity.",
+      "Match @Image 1 composition, then add controlled camera movement.",
+      "Use @Image 1 for style reference and @Image 2 for product details."
+    ],
+    "hasMentionMenu": true,
+    "hasLimit": true,
+    "hasSeedanceModel": true,
+    "hasVideoMode": true
+  },
+  "modelState": {
+    "hasModelMenu": false,
+    "modelOptions": [
+      "Veo 3.1",
+      "Kling O3 Image",
+      "Creative Agent"
+    ]
+  },
+  "mobileState": {
+    "scrollWidth": 390,
+    "innerWidth": 390,
+    "hasComposer": true
+  },
+  "pass": {
+    "desktopNoOverflow": true,
+    "mobileNoOverflow": true,
+    "multiUpload": true,
+    "mentionMenu": true,
+    "modelMenu": false,
+    "mobileComposer": true
+  }
+}

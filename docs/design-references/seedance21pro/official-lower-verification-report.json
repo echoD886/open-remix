@@ -1,0 +1,126 @@
+{
+  "url": "https://seedance21pro.com/",
+  "screenshots": {
+    "desktopShot": "/Users/apple/Desktop/p/seedance21pro/docs/design-references/seedance21pro/official-lower-section-desktop.png",
+    "afterNextShot": "/Users/apple/Desktop/p/seedance21pro/docs/design-references/seedance21pro/official-lower-section-after-next.png",
+    "modelShot": "/Users/apple/Desktop/p/seedance21pro/docs/design-references/seedance21pro/official-model-performance-desktop.png",
+    "mobileShot": "/Users/apple/Desktop/p/seedance21pro/docs/design-references/seedance21pro/official-lower-section-mobile.png"
+  },
+  "desktop": {
+    "scrollWidth": 1440,
+    "innerWidth": 1440,
+    "title": "Immersive Audio-visual Experience",
+    "desc": "Featuring exceptional motion stability and audio-video joint generation, Seedance 2.1 delivers an ultra-realistic immersive experience.",
+    "transform": "translateX(calc(20px))",
+    "sourceCount": 5,
+    "firstSources": [
+      "/seedance-assets/seedance/all/videos/011-src-3ddd11a705.mp4",
+      "/seedance-assets/seedance/all/videos/013-src-32a27d2ba4.mp4"
+    ],
+    "rects": [
+      {
+        "x": 124,
+        "y": 271,
+        "width": 1067,
+        "height": 600
+      },
+      {
+        "x": 1195,
+        "y": 271,
+        "width": 1067,
+        "height": 600
+      }
+    ],
+    "buttons": [
+      {
+        "label": "Previous Immersive Audio-visual Experience",
+        "disabled": true
+      },
+      {
+        "label": "Next Immersive Audio-visual Experience",
+        "disabled": false
+      },
+      {
+        "label": "Unmute media",
+        "disabled": false
+      },
+      {
+        "label": "Unmute media",
+        "disabled": false
+      }
+    ]
+  },
+  "afterClick": {
+    "transform": "translateX(calc(-1050.66px))",
+    "rects": [
+      {
+        "x": -947,
+        "y": 271,
+        "width": 1067,
+        "height": 600
+      },
+      {
+        "x": 124,
+        "y": 271,
+        "width": 1067,
+        "height": 600
+      }
+    ],
+    "buttons": [
+      {
+        "label": "Previous Immersive Audio-visual Experience",
+        "disabled": false
+      },
+      {
+        "label": "Next Immersive Audio-visual Experience",
+        "disabled": false
+      },
+      {
+        "label": "Unmute media",
+        "disabled": false
+      },
+      {
+        "label": "Unmute media",
+        "disabled": false
+      }
+    ]
+  },
+  "modelInfo": {
+    "title": "Model Performance",
+    "images": [
+      {
+        "src": "/seedance-assets/seedance/all/images/041-src-3836eb5784.jpg",
+        "width": 2690,
+        "height": 2128
+      },
+      {
+        "src": "/seedance-assets/seedance/all/images/042-src-f33895ad36.jpg",
+        "width": 2690,
+        "height": 2128
+      },
+      {
+        "src": "/seedance-assets/seedance/all/images/043-src-06fadb0ca9.jpg",
+        "width": 2690,
+        "height": 2026
+      }
+    ]
+  },
+  "mobile": {
+    "scrollWidth": 390,
+    "innerWidth": 390,
+    "title": "Immersive Audio-visual Experience",
+    "card": {
+      "x": 20,
+      "width": 350,
+      "height": 330
+    },
+    "sourceCount": 5
+  },
+  "pass": {
+    "desktopNoOverflow": true,
+    "mobileNoOverflow": true,
+    "officialFirstSources": true,
+    "carouselMoved": true,
+    "radarImagesLoaded": true
+  }
+}

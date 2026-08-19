@@ -1,0 +1,36 @@
+{
+  "filesUsed": [
+    "/Users/apple/Desktop/p/seedance21pro/data/seedance-assets/seedance/all/posters/012-poster-b091411b8a.jpg",
+    "/Users/apple/Desktop/p/seedance21pro/data/seedance-assets/seedance/all/posters/014-poster-1f6d016e55.jpg",
+    "/Users/apple/Desktop/p/seedance21pro/data/seedance-assets/seedance/all/posters/032-poster-568cc0602a.jpg"
+  ],
+  "desktopReport": {
+    "refs": 4,
+    "mentionOpenBeforeModel": true,
+    "mentionOpenAfterModel": false,
+    "modelMenuOpen": true,
+    "noOverflow": true,
+    "promptHasReferences": true
+  },
+  "imageReport": {
+    "hasGptImage2": true,
+    "hasNanoBananaPro": true,
+    "hasNanoBanana2": true,
+    "hasSeedream": true,
+    "hasAgent": true,
+    "noOverflow": true
+  },
+  "mobileReport": {
+    "noOverflow": true,
+    "hasComposer": true,
+    "viewport": {
+      "width": 390,
+      "scrollWidth": 390
+    }
+  },
+  "screenshots": {
+    "desktopShot": "/Users/apple/Desktop/p/seedance21pro/docs/design-references/seedance21pro/generator-jimeng-style-mutual-menu-check.png",
+    "imageShot": "/Users/apple/Desktop/p/seedance21pro/docs/design-references/seedance21pro/generator-image-model-menu-post-fix.png",
+    "mobileShot": "/Users/apple/Desktop/p/seedance21pro/docs/design-references/seedance21pro/generator-jimeng-style-mobile-post-fix.png"
+  }
+}

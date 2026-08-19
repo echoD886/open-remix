@@ -1,0 +1,30 @@
+{
+  "heroBefore": {
+    "composerBg": "oklab(0.20363 -0.00506327 -0.0283644 / 0.62)",
+    "innerBg": "linear-gradient(135deg, rgba(21, 29, 43, 0.78), rgba(38, 47, 62, 0.56))",
+    "heroMuted": true,
+    "heroHasAudioControl": true,
+    "noHorizontalOverflow": true
+  },
+  "heroAfter": true,
+  "officialBefore": {
+    "aiLabelCount": 0,
+    "canScroll": true,
+    "scrollLeft": 0,
+    "activeDots": 1,
+    "officialMuted": true,
+    "hasMuteButton": true
+  },
+  "officialAfterScroll": {
+    "scrollLeft": 600,
+    "noOverflow": true
+  },
+  "officialSoundAfter": true,
+  "officialAfterAuto": {
+    "scrollLeft": 2141
+  },
+  "screenshots": {
+    "heroShot": "/Users/apple/Desktop/p/seedance21pro/docs/design-references/seedance21pro/home-hero-dark-composer-sound-check.png",
+    "officialShot": "/Users/apple/Desktop/p/seedance21pro/docs/design-references/seedance21pro/official-carousel-scroll-sound-no-ai.png"
+  }
+}

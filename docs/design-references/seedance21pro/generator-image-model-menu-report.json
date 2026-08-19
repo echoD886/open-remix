@@ -1,0 +1,15 @@
+{
+  "imageModelShot": "/Users/apple/Desktop/p/seedance21pro/docs/design-references/seedance21pro/generator-image-model-menu.png",
+  "state": {
+    "scrollWidth": 1440,
+    "innerWidth": 1440,
+    "hasImageMode": true,
+    "hasImageModels": true,
+    "hasAgent": true
+  },
+  "pass": {
+    "noOverflow": true,
+    "imageModels": true,
+    "agent": true
+  }
+}

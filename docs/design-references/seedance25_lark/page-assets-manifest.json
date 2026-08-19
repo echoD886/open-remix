@@ -1,0 +1,37 @@
+{
+  "assets": [
+    {
+      "contentType": "image/jpeg",
+      "id": "943d7992f9f68b49",
+      "kind": "image",
+      "name": "BBnqbo9ZUoIvPWxPaO0cdoaMnOc",
+      "path": "/var/folders/59/xstj9gks3q78t45vh8str7jm0000gn/T/browser-use/assets/11e2ca93-dac6-4160-9391-c7ad0944a5d2/943d7992f9f68b49",
+      "url": "https://internal-api-drive-stream.larkoffice.com/space/api/box/stream/download/v2/cover/BBnqbo9ZUoIvPWxPaO0cdoaMnOc?width=850&height=850&policy=near"
+    },
+    {
+      "contentType": "image/jpeg",
+      "id": "e1a0c93e5fe9cbbe",
+      "kind": "image",
+      "name": "ZVz4bKThvo1BV7xD8tUccUr9nQe",
+      "path": "/var/folders/59/xstj9gks3q78t45vh8str7jm0000gn/T/browser-use/assets/11e2ca93-dac6-4160-9391-c7ad0944a5d2/e1a0c93e5fe9cbbe",
+      "url": "https://internal-api-drive-stream.larkoffice.com/space/api/box/stream/download/v2/cover/ZVz4bKThvo1BV7xD8tUccUr9nQe?width=850&height=850&policy=near"
+    },
+    {
+      "contentType": "image/jpeg",
+      "id": "3b0cd9b1b5ebaf85",
+      "kind": "image",
+      "name": "VVSobzeifoix64x1iQDcNEcKn5e",
+      "path": "/var/folders/59/xstj9gks3q78t45vh8str7jm0000gn/T/browser-use/assets/11e2ca93-dac6-4160-9391-c7ad0944a5d2/3b0cd9b1b5ebaf85",
+      "url": "https://internal-api-drive-stream.larkoffice.com/space/api/box/stream/download/v2/cover/VVSobzeifoix64x1iQDcNEcKn5e?width=850&height=850&policy=near"
+    },
+    {
+      "contentType": "image/jpeg",
+      "id": "a3bb674e7798fac4",
+      "kind": "image",
+      "name": "UJ0Kbw7l1oO2snxeCBpcA3qGnph",
+      "path": "/var/folders/59/xstj9gks3q78t45vh8str7jm0000gn/T/browser-use/assets/11e2ca93-dac6-4160-9391-c7ad0944a5d2/a3bb674e7798fac4",
+      "url": "https://internal-api-drive-stream.larkoffice.com/space/api/box/stream/download/v2/cover/UJ0Kbw7l1oO2snxeCBpcA3qGnph?width=850&height=850&policy=near"
+    }
+  ],
+  "failures": []
+}

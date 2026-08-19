@@ -1,0 +1,48 @@
+{
+  "report": {
+    "width": 390,
+    "scrollWidth": 390,
+    "overflowX": false,
+    "tabs": [
+      {
+        "mode": "video",
+        "text": "Make Videos",
+        "left": 20,
+        "right": 134,
+        "width": 114
+      },
+      {
+        "mode": "image",
+        "text": "Create Image",
+        "left": 138,
+        "right": 252,
+        "width": 114
+      },
+      {
+        "mode": "agent",
+        "text": "Agent\nBeta",
+        "left": 256,
+        "right": 370,
+        "width": 114
+      }
+    ],
+    "allTabsFullyVisible": true,
+    "bodyHas": {
+      "makeVideos": true,
+      "createImage": true,
+      "agent": true,
+      "beta": true,
+      "generate": true
+    }
+  },
+  "events": [
+    {
+      "type": "console:info",
+      "text": "%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"
+    },
+    {
+      "type": "console:info",
+      "text": "%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"
+    }
+  ]
+}

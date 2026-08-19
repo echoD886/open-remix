@@ -1,0 +1,50 @@
+name: Quality Gate
+
+on:
+  pull_request:
+    branches: ['main', 'dev']
+  push:
+    branches: ['main', 'dev']
+  workflow_dispatch:
+
+jobs:
+  typecheck-build-and-audit:
+    runs-on: ubuntu-latest
+    env:
+      DATABASE_PROVIDER: postgresql
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Enable pnpm
+        run: corepack enable pnpm
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Audit internal links
+        run: pnpm exec tsx scripts/audit-internal-links.ts
+
+      - name: Audit image SEO
+        run: pnpm exec tsx scripts/audit-image-seo.ts
+
+      - name: Test
+        run: pnpm test
+
+      - name: Integration tests
+        run: pnpm test:integration
+
+      - name: Typecheck
+        run: pnpm typecheck
+
+      - name: Build
+        run: pnpm build
+
+      - name: Cloudflare build
+        run: pnpm cf:build

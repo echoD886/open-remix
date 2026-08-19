@@ -1,0 +1,30 @@
+{
+  "screenshots": {
+    "firstShot": "/Users/apple/Desktop/p/seedance21pro/docs/design-references/seedance21pro/official-lower-section-desktop-final.png",
+    "mobileShot": "/Users/apple/Desktop/p/seedance21pro/docs/design-references/seedance21pro/official-lower-section-mobile-final.png"
+  },
+  "before": {
+    "scrollWidth": 1440,
+    "innerWidth": 1440,
+    "transform": "translateX(calc(20px))",
+    "headerBg": "oklab(0.999994 0.0000455678 0.0000200868 / 0.55)",
+    "logoX": 80,
+    "sourceCount": 5,
+    "navText": "rgb(29, 33, 41)"
+  },
+  "after": {
+    "transform": "translateX(calc(-1050.66px))"
+  },
+  "mobile": {
+    "scrollWidth": 390,
+    "innerWidth": 390,
+    "cardWidth": 350
+  },
+  "pass": {
+    "noDesktopOverflow": true,
+    "noMobileOverflow": true,
+    "moved": true,
+    "sourceCount": true,
+    "headerReadable": true
+  }
+}

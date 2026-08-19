@@ -1,0 +1,43 @@
+# deps / build artifacts (rebuilt inside the image)
+node_modules
+.output
+.nitro
+.tanstack
+dist
+build
+.codec-build
+src/routeTree.gen.ts
+src/paraglide
+
+# env files — secrets must come from runtime env, never the build context
+.env
+.env.*
+!.env.example
+
+# local database
+data
+src/config/db/schema.ts
+src/config/db/.schema-build.lock
+
+# vcs / editors / tooling
+.git
+.github
+.vscode
+.idea
+.cursor
+.claude
+.agents
+.codex
+.vercel
+.wrangler
+wrangler.jsonc
+!workers/product-video-safe-egress/wrangler.jsonc
+
+# docs & misc
+docs
+README.md
+LICENSE
+.DS_Store
+*.log
+*.pem
+*.tsbuildinfo

@@ -1,0 +1,117 @@
+{
+  "desktop": {
+    "width": 1440,
+    "scrollWidth": 1440,
+    "overflowX": false,
+    "has": {
+      "create": true,
+      "vip": true,
+      "language": true,
+      "login": true,
+      "tabs": true
+    }
+  },
+  "modelsAndLanguages": {
+    "videoCount": 16,
+    "imageCount": 7,
+    "agentCount": 3,
+    "videoLabels": [
+      "Seedance 2.1 Pro",
+      "Seedance Image-to-Video",
+      "Seedance Reference Video",
+      "Veo 3.1",
+      "Sora 2 Preview",
+      "Kling O3 Text",
+      "Kling O3 Image",
+      "Wan 2.6 Text",
+      "Wan 2.6 Image",
+      "Wan 2.6 Reference Flash",
+      "Hailuo 02",
+      "Hailuo 2.3 Fast",
+      "Grok Imagine Text",
+      "Grok Imagine Image",
+      "HappyHorse Text",
+      "HappyHorse Image"
+    ],
+    "imageLabels": [
+      "GPT Image 2",
+      "Nano Banana Pro",
+      "Nano Banana 2",
+      "Seedream 5.0 Lite",
+      "Wan 2.5 Text",
+      "Wan 2.5 Image",
+      "Z Image Turbo"
+    ],
+    "agentLabels": [
+      "Creative Agent",
+      "Video Director Agent",
+      "Image Art Director"
+    ],
+    "languageCount": 14,
+    "languageLabels": [
+      "English",
+      "Deutsch",
+      "Français",
+      "Español",
+      "Português",
+      "Italiano",
+      "日本語",
+      "한국어",
+      "中文",
+      "العربية",
+      "Bahasa",
+      "ไทย",
+      "Tiếng Việt",
+      "Türkçe"
+    ],
+    "requiredChecks": {
+      "seedance21": true,
+      "veo": true,
+      "sora": true,
+      "kling": true,
+      "wanVideo": true,
+      "gptImage2": true,
+      "nanoBananaPro": true,
+      "nanoBanana2": true,
+      "creativeAgent": true,
+      "seaartLanguages": true
+    }
+  },
+  "mobile": {
+    "width": 390,
+    "scrollWidth": 390,
+    "overflowX": false,
+    "allTabsFullyVisible": true,
+    "tabs": [
+      {
+        "mode": "video",
+        "left": 20,
+        "right": 134,
+        "text": "Make Videos"
+      },
+      {
+        "mode": "image",
+        "left": 138,
+        "right": 252,
+        "text": "Create Image"
+      },
+      {
+        "mode": "agent",
+        "left": 256,
+        "right": 370,
+        "text": "Agent\nBeta"
+      }
+    ],
+    "has": true
+  },
+  "events": [
+    {
+      "type": "console:info",
+      "text": "%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"
+    },
+    {
+      "type": "console:info",
+      "text": "%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"
+    }
+  ]
+}

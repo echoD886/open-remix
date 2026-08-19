@@ -1,0 +1,367 @@
+{
+  "desktop": {
+    "title": "Seedance 2.1 Pro | AI Video Generator",
+    "url": "https://seedance21pro.com/",
+    "width": 1440,
+    "height": 1063,
+    "scrollWidth": 1440,
+    "overflowX": false,
+    "bodyHas": {
+      "create": true,
+      "vip": false,
+      "login": true,
+      "makeVideos": true,
+      "createImage": true,
+      "agent": true,
+      "generate": true,
+      "seedance": true
+    },
+    "controls": [
+      {
+        "tag": "a",
+        "text": "Seedance\n2.1 Pro",
+        "href": "/"
+      },
+      {
+        "tag": "a",
+        "text": "Home",
+        "href": "/"
+      },
+      {
+        "tag": "a",
+        "text": "AI Video Generator",
+        "href": "/ai-video-generator"
+      },
+      {
+        "tag": "a",
+        "text": "AI Image Generator",
+        "href": "/ai-image-generator"
+      },
+      {
+        "tag": "a",
+        "text": "Models",
+        "href": "#models"
+      },
+      {
+        "tag": "button",
+        "text": "Create",
+        "href": null
+      },
+      {
+        "tag": "a",
+        "text": "VIP",
+        "href": "/pricing"
+      },
+      {
+        "tag": "button",
+        "text": "Switch language",
+        "href": null
+      },
+      {
+        "tag": "a",
+        "text": "Log In",
+        "href": "/sign-in"
+      },
+      {
+        "tag": "button",
+        "text": "Open menu",
+        "href": null
+      },
+      {
+        "tag": "a",
+        "text": "Home",
+        "href": "/"
+      },
+      {
+        "tag": "a",
+        "text": "AI Video Generator",
+        "href": "/ai-video-generator"
+      },
+      {
+        "tag": "a",
+        "text": "AI Image Generator",
+        "href": "/ai-image-generator"
+      },
+      {
+        "tag": "a",
+        "text": "Models",
+        "href": "#models"
+      },
+      {
+        "tag": "a",
+        "text": "Create Image",
+        "href": "/ai-image-generator"
+      },
+      {
+        "tag": "a",
+        "text": "Make Video",
+        "href": "/ai-video-generator"
+      },
+      {
+        "tag": "a",
+        "text": "Agent Mode",
+        "href": "#agent"
+      },
+      {
+        "tag": "a",
+        "text": "VIP",
+        "href": "/pricing"
+      },
+      {
+        "tag": "a",
+        "text": "Log In",
+        "href": "/sign-in"
+      },
+      {
+        "tag": "button",
+        "text": "Make Videos",
+        "href": null
+      },
+      {
+        "tag": "button",
+        "text": "Create Image",
+        "href": null
+      },
+      {
+        "tag": "button",
+        "text": "Agent\nBeta",
+        "href": null
+      },
+      {
+        "tag": "button",
+        "text": "Upload reference image",
+        "href": null
+      },
+      {
+        "tag": "button",
+        "text": "Seedance 2.1 Pro",
+        "href": null
+      },
+      {
+        "tag": "button",
+        "text": "Generate",
+        "href": null
+      },
+      {
+        "tag": "button",
+        "text": "Refresh prompt suggestion",
+        "href": null
+      },
+      {
+        "tag": "button",
+        "text": "360° Orbit Shot",
+        "href": null
+      },
+      {
+        "tag": "button",
+        "text": "Dynamic Pullback",
+        "href": null
+      },
+      {
+        "tag": "button",
+        "text": "Epic Drone Rise",
+        "href": null
+      },
+      {
+        "tag": "button",
+        "text": "Product reveal with dramatic lighting",
+        "href": null
+      },
+      {
+        "tag": "a",
+        "text": "Video Studio",
+        "href": "/ai-video-generator"
+      },
+      {
+        "tag": "a",
+        "text": "Image Studio",
+        "href": "/ai-image-generator"
+      },
+      {
+        "tag": "a",
+        "text": "Compare Models",
+        "href": "#models"
+      },
+      {
+        "tag": "button",
+        "text": "Unmute hero video",
+        "href": null
+      },
+      {
+        "tag": "button",
+        "text": "Show Arena Volleyball",
+        "href": null
+      },
+      {
+        "tag": "button",
+        "text": "Show Studio Movement",
+        "href": null
+      },
+      {
+        "tag": "button",
+        "text": "Show Street Dance Battle",
+        "href": null
+      },
+      {
+        "tag": "a",
+        "text": "Open Video Generator",
+        "href": "/ai-video-generator"
+      },
+      {
+        "tag": "a",
+        "text": "Open Image Generator",
+        "href": "/ai-image-generator"
+      },
+      {
+        "tag": "button",
+        "text": "Seedance 2.1",
+        "href": null
+      },
+      {
+        "tag": "button",
+        "text": "Kling",
+        "href": null
+      },
+      {
+        "tag": "button",
+        "text": "Veo",
+        "href": null
+      },
+      {
+        "tag": "button",
+        "text": "Runway",
+        "href": null
+      },
+      {
+        "tag": "button",
+        "text": "Wan",
+        "href": null
+      },
+      {
+        "tag": "a",
+        "text": "Seedance 2.1",
+        "href": "#"
+      },
+      {
+        "tag": "a",
+        "text": "AI Video Generator",
+        "href": "#"
+      },
+      {
+        "tag": "a",
+        "text": "AI Image Generator",
+        "href": "#"
+      },
+      {
+        "tag": "a",
+        "text": "Models",
+        "href": "#"
+      },
+      {
+        "tag": "a",
+        "text": "Text to Video",
+        "href": "#"
+      },
+      {
+        "tag": "a",
+        "text": "Image to Video",
+        "href": "#"
+      },
+      {
+        "tag": "a",
+        "text": "Prompt Enhance",
+        "href": "#"
+      },
+      {
+        "tag": "a",
+        "text": "R2 Assets",
+        "href": "#"
+      },
+      {
+        "tag": "a",
+        "text": "hello@seedance21pro.com",
+        "href": "mailto:hello@seedance21pro.com"
+      },
+      {
+        "tag": "a",
+        "text": "Terms",
+        "href": "#"
+      },
+      {
+        "tag": "a",
+        "text": "Privacy",
+        "href": "#"
+      },
+      {
+        "tag": "a",
+        "text": "Seedance 2.1 Pro",
+        "href": "https://seedance21pro.com/"
+      }
+    ],
+    "heroBg": "rgb(6, 8, 10)",
+    "snippet": "Seedance\n2.1 Pro\nHome\nAI Video Generator\nAI Image Generator\nModels\nCreate\nSwitch language\nLog In\n\nSEEDANCE 2.1 PRO CREATIVE STUDIO\n\nSeedance 2.1 Pro\n\nCreate cinematic AI videos and images from one prompt. Start with text, attach a reference image, then route the task through Seedance-style video or Seedream image generation.\n\nMake Videos\nCreate Image\nAgent\nBeta\nSeedance 2.1 Pro\nGenerate\n360° Orbit Shot\nDynamic Pullback\nEpic Drone Rise\nProduct reveal with dramatic lighting\nVideo Studio\nImage Studio\nCompare Models\n\nImmersive Audio-visual Experience\n\nStable motion, cinematic sound, and high-fidelity continuity\n\nSeedance 2.1 Pro is designed for cinematic AI video workflows, supporting text, image, and reference-driven generation with clean motion and production-ready pacing.\n\nAudio-video joint generation\nMotion stability\nScene continuity\n\nPrompt sample\n\nCinematic butterfly lighting. Medium shot of a pianist in a black suit, then a close-up of a serene focused expression.\n\n16:9\n\nCreate with Director-level Control\n\nTurn one prompt into camera movement, lighting, and performance\n\nGuide character movement, scene rhythm, and shot direction with prompt-level control. Use references to keep composition and timing aligned across scenes.\n\nImage to video\nReference control\nCamera direction\n\nPrompt sample\n\nA man leaves a warm cafe, crosses a cool busy street, then enters a subway stairway in one smooth long take.\n\n9:16\n\nEmpower Creativity\n\nExplore models, compare outputs, and keep the best generation path\n\nRoute projects across Seedance-style video, Kling, Veo, and image models from one studio surface, with credits, history, and export workflows ready for SaaS use.\n\nModel comparison\nPrompt history\nExport workflow\n\nPrompt sample\n\nA cyberpunk assassin fights through surrounded enemies with fast movement, fluid transitions, and dark city lighting.\n\n16:9\n\nMODEL PERFORMANCE\n\nMulti-dimensional evaluation for cinematic generation\n\nSeedance 2.1 Pro organizes model evaluation around prompt adherence, motion quality, reference control, audio alignment, and editability.\n\nText-to-Video\nPrompt\nMotion\nCamera\nRealism\nStyle\nAudio\nImage-to-Video\nIdentity\nLighting\nDepth\nMotion\nDetail\nEdit\nMultim"
+  },
+  "modelInfo": {
+    "videoPresence": {
+      "Seedance 2.1 Pro": true,
+      "Seedance 2.0 Fast": false,
+      "Veo 3.1": true,
+      "Sora 2": true,
+      "Kling O3": true,
+      "Wan 2.6": true,
+      "Hailuo": true,
+      "Grok Imagine": true,
+      "HappyHorse": true
+    },
+    "imagePresence": {
+      "GPT Image 2": false,
+      "Nano Banana Pro": false,
+      "Nano Banana 2": false,
+      "Seedream 5.0": true,
+      "Wan 2.5": false,
+      "Z Image Turbo": false
+    },
+    "agentTabActive": false,
+    "agentModels": {
+      "creative": false,
+      "director": false,
+      "artDirector": false
+    }
+  },
+  "languageInfo": {
+    "foundTrigger": false,
+    "text": "Seedance 2.1 Pro\nR2 asset workflow ready\nModels\nSeedream 5.0 Lite\nDefault\n\nReference images and video keyframes\n\nFlux Kontext\nEdit\n\nImage editing and style consistency\n\nGPT Image\nText\n\nPrompt-rich image generation\n\nGemini Image\nVisual\n\nConcept exploration and variants\n\nIdeogram\nDesign\n\nGraphic layouts and typography concepts\n\nSeedance Studio\n\nAI Image Generator\n\nGenerate production-ready images and video keyframes with selectable AI image models.\n\n4 credits\nPrompt\nEnhance\n\nLive result preview\n\nSeedream 5.0 Lite sample output\n\n16:9\nReference\nDrop media or select file\nStyle image\nDrop media or select file\nMask\nDrop media or select file\nOutput will be saved to storage and can be mapped to R2 public URLs.\nGenerate with Seedream 5.0 Lite\nSettings\n\nAspect ratio\n\n16:9\n9:16\n1:1\n4:3\n3:4\n\nStyle\n\nCinematic\nPhotoreal\nAnime\nCommercial\nDocumentary\nRecent generations\nNo renders yet. Press Generate to create a preview."
+  },
+  "mobile": {
+    "width": 390,
+    "height": 844,
+    "scrollWidth": 390,
+    "overflowX": false,
+    "bodyHas": {
+      "makeVideos": true,
+      "createImage": true,
+      "agent": true,
+      "generate": true
+    },
+    "snippet": "Seedance\n2.1 Pro\nHome\nAI Video Generator\nAI Image Generator\nModels\nCreate Image\nMake Video\nAgent Mode\nVIP\nLog In\n\nSEEDANCE 2.1 PRO CREATIVE STUDIO\n\nSeedance 2.1 Pro\n\nCreate cinematic AI videos and images from one prompt. Start with text, attach a reference image, then route the task through Seedance-style video or Seedream image generation.\n\nMake Videos\nCreate Image\nAgent\nBeta\nSeedance 2.1 Pro\nGenerate\n360° Orbit Shot\nDynamic Pullback\nEpic Drone Rise\nProduct reveal with dramatic lighting\nVideo Studio\nImage Studio\nCompare Models\n\nImmersive Audio-visual Experience\n\nStable motion, cinematic sound, and high-fidelity continuity\n\nSeedance 2.1 Pro is designed for cinematic AI video workflows, supporting text, image, and reference-driven generation with clean motion and production-ready pacing.\n\nAudio-video joint generation\nMotion stability\nScene continuity\n\nPrompt sample\n\nCinematic butterfly lighting. Medium shot of a pianist in a black suit, then a close-up of a serene focused expression.\n\nCreate with Director-level Control\n\nTurn one prompt into camera movement, lighting, and performance\n\nGuide character movement, scene rhythm, and shot direction with prompt-level control. Use references to keep composition and timing aligned across scenes.\n\nImage to video\nReference control\nCamera direction\n\nPrompt sample\n\nA man leaves a warm cafe, crosses a cool busy street, then enters a subway sta"
+  },
+  "events": [
+    {
+      "type": "console:info",
+      "text": "%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"
+    },
+    {
+      "type": "console:info",
+      "text": "%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"
+    },
+    {
+      "type": "console:info",
+      "text": "%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"
+    }
+  ],
+  "screenshots": [
+    "/Users/apple/Desktop/p/seedance21pro/docs/design-references/seedance21pro/home-light-composer-desktop.png",
+    "/Users/apple/Desktop/p/seedance21pro/docs/design-references/seedance21pro/home-agent-language-open-desktop.png",
+    "/Users/apple/Desktop/p/seedance21pro/docs/design-references/seedance21pro/home-light-composer-mobile.png"
+  ]
+}
